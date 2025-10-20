@@ -71,4 +71,8 @@ void loop() {
 }
 ```
 
-```
+## 6) Resultado y evidencia
+
+Como esperado el Led prendia y apagaba segun la instruccion dada a través del celular
+
+[Video del funcionamiento](https://drive.google.com/file/d/1zrjvqOzj3PhVCXXpGc0IRuPjqYrYylh9/view?usp=sharing)
