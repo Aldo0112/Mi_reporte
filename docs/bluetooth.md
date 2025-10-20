@@ -4,7 +4,7 @@
 ## 1) Resumen
 
 - **Nombre del proyecto:** Bluetooth
-- **Equipo / Autor(es):** Aldo Alvarez, Alexandra Grooth
+- **Equipo / Autor(es):** Aldo Alvarez, Alexandra Groot
 - **Curso / Asignatura:** Introduccion a la mecatrónica
 - **Fecha:** 12/09/2025  
 - **Descripción breve:** Prendido y apagado de un led a través de el uso de la funcion bluetooth de una ESP32.
