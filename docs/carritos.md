@@ -293,7 +293,7 @@ Durante la competencia, surgieron algunos problemas. Uno de los motores se cayó
 
 A pesar de eso, el funcionamiento general fue bueno. El coche cumplió con lo planeado, aunque no logró anotar goles ni obtener un lugar destacado.
 
-Videos de el carrito funcionando:
+Videos de el carrito en funcionamiento:
 
 [Video 1](https://youtube.com/shorts/-BoEvhaO5zg?feature=share)
 
