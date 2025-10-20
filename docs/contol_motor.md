@@ -48,6 +48,38 @@ Primero se instalo la placa ESP32 a un arduino la cual era alimentada a través 
 
 La programación esta hecha para que el motor gire durante un tiempo determinado hacia una dirección, después se detenga, gire a la dirección opuesta durante un tiempo determinado, se detenga y continue el ciclo.
 
+El codigo utilizado fué el siguiente:
+
+```
+#define in1 27
+#define in2 14
+
+void setup() {
+  /*Declarar Pines Como salida*/
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+}
+
+void loop() {
+  /*ADELANTE*/
+  digitalWrite(in1, 0);
+  digitalWrite(in2, 1);
+  delay(1000);
+  /*ALTO*/
+  digitalWrite(in1, 0);
+  digitalWrite(in2, 0);
+  delay(1000);
+  /*ATRAS*/
+  digitalWrite(in1, 1);
+  digitalWrite(in2, 0);
+  delay(1000);
+  /*ALTO*/
+  digitalWrite(in1, 0);
+  digitalWrite(in2, 0);
+  delay(1000);
+}
+```
+
 ---
 ## 6) Resultado y evidencias
 
