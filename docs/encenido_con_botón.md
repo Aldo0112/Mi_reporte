@@ -3,65 +3,73 @@
 
 ## 1) Resumen
 
-- **Nombre del proyecto:** Aldo Alvarez, Alexandra Groot
-- **Equipo / Autor(es):** _Nombre(s)_  
-- **Curso / Asignatura:** _Nombre del curso_  
-- **Fecha:** _DD/MM/AAAA_  
-- **Descripción breve:** _Una o dos líneas que expliquen qué hace y por qué._
-
-!!! tip "Consejo"
-    Mantén este resumen corto (máx. 5 líneas). Lo demás va en secciones específicas.
+- **Nombre del proyecto:** Encendido con botón
+- **Equipo / Autor(es):** Aldo Alvarez, Alexandra Groot  
+- **Curso / Asignatura:** Introducción a la mecatrónica
+- **Fecha:** 12/09/25
+- **Descripción breve:** Encendido de un Led con ayuda de un botón y una ESP32
 
 ---
 
 ## 2) Objetivos
 
-- **General:** _Qué se pretende lograr en términos amplios._
-- **Específicos:**
-  - _OE1…_
-  - _OE2…_
-  - _OE3…_
+- **General:** Con la ayuda de una ESP32 se planea lograr el encendido de un LED al mantener un botón presionado y al dejarlo de presionar que este se apague.
 
+---
 ## 3) Alcance y Exclusiones
 
-- **Incluye:** _Qué funcionalidades/entregables sí están en el proyecto._
-- **No incluye:** _Qué queda fuera para evitar malentendidos._
+- **Incluye:** Un LED el cual al presionar el botón se prenda
 
 ---
 
 ## 4) Requisitos
 
 **Software**
-- _SO compatible (Windows/Linux/macOS)_
-- _Python 3.x / Node 18+ / Arduino IDE / etc._
-- _Dependencias (p. ej., pip/requirements, npm packages)_
+- Arduino
 
 **Hardware (si aplica)**
-- _MCU / Sensores / Actuadores / Fuente de poder_
-- _Herramientas (multímetro, cautín, etc.)_
+- Botón
+-Multimetro
 
 **Conocimientos previos**
-- _Programación básica en X_
+- _Programación básica en C++_
 - _Electrónica básica_
-- _Git/GitHub_
 
 ---
 
-## 5) Instalación
+## 5) Desarrollo
 
-```bash
-# 1) Clonar
-git clone https://github.com/<usuario>/<repo>.git
-cd <repo>
+# Electrónica
 
-# 2) (Opcional) Crear entorno virtual
-python -m venv .venv
-# macOS/Linux
-source .venv/bin/activate
-# Windows (PowerShell)
-.venv\Scripts\Activate.ps1
+Primero se conecto una placa ESP32 a una protoboard, después se instalo un botón y a este se conecto un LED tomando el puerto especificado y utilizando resistencias para el correcto funcionamiento de este
 
-# 3) Instalar dependencias (ejemplos)
-pip install -r requirements.txt
-# o, si es Node:
-npm install
+# Programación
+
+El programa que se hizo en C++ tiene el objetivo de que al recibir la señal de que el botón esta presionado encienda el LED, de lo contrario el LED permanece apagado
+
+El codigo utilizado fué el suiguiente:
+
+```
+#define LED 23
+#define BUTTON 33
+
+void setup() {
+    pinMode(LED, OUTPUT);
+    pinMode(BUTTON, INPUT);
+}
+
+void loop() {
+    if (digitalRead(BUTTON) == HIGH) {
+        digitalWrite(LED, HIGH);
+    } else {
+        digitalWrite(LED, LOW);
+    }
+}
+```
+
+---
+## 6) Resultado y evidencia
+
+El resultado fué el esperado logrando de que el LED prendiera exclusivamente cuando el boton estuviera precionado y apagada en el caso contrario
+
+[Video del funcionamiento](https://drive.google.com/file/d/1y4MCiTSNBavNAfkrnyJipjh7j5Zh8KXm/view?usp=sharing)
