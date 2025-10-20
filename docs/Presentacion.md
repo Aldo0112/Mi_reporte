@@ -1,2 +1,2 @@
 ### Presentacion personal
-[Imagen personal](rescursos/imgs/20251020_125704.jpg)
+[Imagen personal](docs/recursos/imgs/20251020_125704.jpg)
