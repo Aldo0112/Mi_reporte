@@ -18,20 +18,14 @@
 
 ## 4) Requisitos
 
-**Software**
-- _SO compatible (Windows/Linux/macOS)_
-- _Python 3.x / Node 18+ / Arduino IDE / etc._
-- _Dependencias (p. ej., pip/requirements, npm packages)_
-
-**Hardware (si aplica)**
+**Hardware**
 - Fuente de poder
 - Osciloscopio
 - Multimetro
 
 **Conocimientos previos**
 - Electronica basica
-source .venv/bin/activate
-# Windows (PowerShell)
-.venv\Scripts\Activate.ps1
 
-# 3) Instalar dependencias (ejemplos)
+## 5) Resultado y evidencias
+Se obtuvo el resultado esperado logrando que el LED parpadeara en los intervalos esperados por nosotros y a traves del osciloscopio logramos observar como este parpadeo también se reflejaba en cambios en señales eléctricas
+[Video del funcionamiento](https://drive.google.com/file/d/14xjYpnJRGkasmjWCNnslAvvaUHVq78dH/view?usp=sharing)
