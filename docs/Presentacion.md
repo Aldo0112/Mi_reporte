@@ -1,8 +1,6 @@
 ### Presentación personal
 
-![Imagen personal](recursos/imgs/20251020_125704.jpg)
-
-<img src="../recursos/imgs/20251020_125704.jpg" alt="Imagen personal" width="20">
+<img src="../recursos/imgs/20251020_125704.jpg" alt="Imagen personal" width="420">
 
 ## Descripción personal
 Mi nombre es Aldo Ibrahim Alvarez Fernández, soy estudiante de mecatrónica en la universidad IBERO de Puebla. En cuanto a la carrera estoy interesado en el armado de robots, especialmente en la parte de electrónica y mecánica.
