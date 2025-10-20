@@ -266,7 +266,7 @@ void setSpeed(int val) {
 
 ### Aplicación
 
-Para controlar el coche, se usó una aplicación desarrollada por un compañero. Esta app permite asignar letras a cada botón, que luego se envían por Bluetooth a la ESP32.
+Para controlar el coche, se usó una aplicación para celular. Esta app permite asignar letras a cada botón, que luego se envían por Bluetooth a la ESP32.
 
 Se configuraron así:
 
@@ -281,6 +281,8 @@ Se configuraron así:
 - S: Detener
 
 Cada vez que se presiona un botón, la aplicación manda la letra y la ESP32 ejecuta la acción correspondiente.
+
+Vista del control dentro de la aplicación: https://drive.google.com/file/d/1DLEcz_CKWwx4NYhjfOK8Q-QKgtkGvG3R/view?usp=sharing
 
 
 ## 6) Resultados y Evidencias
