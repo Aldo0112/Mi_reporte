@@ -1,6 +1,6 @@
 ## 1) Resumen
 
-- **Nombre del proyecto:** Señanes_electricsd
+- **Nombre del proyecto:** Señanes_electricas
 - **Equipo / Autor(es):** Aldo Alvarez, Erik Zepeda, Sebastian Gomez
 - **Curso / Asignatura:** Introducción a la mecatrónica
 - **Fecha:** 05/09/25  
@@ -8,18 +8,13 @@
 
 ## 2) Objetivos
 
-- **General:** _Qué se pretende lograr en términos amplios._
+- **General:** Con la ayuda de una calculadora de temporizados utilizar un capacitor y una resistencia para lograr controlar el tiempo del parpadeo de un LED
 - **Específicos:**
-  - _OE1…_
-  - _OE2…_
-  - _OE3…_
+  - Lograr ver el cambio en las señales electricas
 
 ## 3) Alcance y Exclusiones
 
-- **Incluye:** _Qué funcionalidades/entregables sí están en el proyecto._
-- **No incluye:** _Qué queda fuera para evitar malentendidos._
-
----
+- **Incluye:** Realizar los calculos para obtener el tiempo deseado del parepadeo en el LED y observar los cambios causados por estos en las señales electricas
 
 ## 4) Requisitos
 
@@ -29,26 +24,12 @@
 - _Dependencias (p. ej., pip/requirements, npm packages)_
 
 **Hardware (si aplica)**
-- _MCU / Sensores / Actuadores / Fuente de poder_
-- _Herramientas (multímetro, cautín, etc.)_
+- Fuente de poder
+- Osciloscopio
+- Multimetro
 
 **Conocimientos previos**
-- _Programación básica en X_
-- _Electrónica básica_
-- _Git/GitHub_
-
----
-
-## 5) Instalación
-
-```bash
-# 1) Clonar
-git clone https://github.com/<usuario>/<repo>.git
-cd <repo>
-
-# 2) (Opcional) Crear entorno virtual
-python -m venv .venv
-# macOS/Linux
+- Electronica basica
 source .venv/bin/activate
 # Windows (PowerShell)
 .venv\Scripts\Activate.ps1
