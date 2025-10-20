@@ -57,5 +57,3 @@ El resultado fué el esperado logrando que el motor suguiera las instrucciones e
 
 [Video del funcionamiento](https://drive.google.com/file/d/1uku9kFjUkLhdnCgV8f6ZGa-J4uivBzcc/view?usp=sharing)
 
-
-```
