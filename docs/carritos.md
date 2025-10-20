@@ -282,7 +282,7 @@ Se configuraron así:
 
 Cada vez que se presiona un botón, la aplicación manda la letra y la ESP32 ejecuta la acción correspondiente.
 
-Vista del control dentro de la aplicación: https://drive.google.com/file/d/1DLEcz_CKWwx4NYhjfOK8Q-QKgtkGvG3R/view?usp=sharing
+[Vista del control dentro de la aplicación](https://drive.google.com/file/d/1DLEcz_CKWwx4NYhjfOK8Q-QKgtkGvG3R/view?usp=sharing)
 
 
 ## 6) Resultados y Evidencias
@@ -293,10 +293,11 @@ Durante la competencia, surgieron algunos problemas. Uno de los motores se cayó
 
 A pesar de eso, el funcionamiento general fue bueno. El coche cumplió con lo planeado, aunque no logró anotar goles ni obtener un lugar destacado.
 
+Videos de el carrito funcionando:
 
-https://youtube.com/shorts/-BoEvhaO5zg?feature=share
+[Video 1](https://youtube.com/shorts/-BoEvhaO5zg?feature=share)
 
-https://youtu.be/CgaybSU6_40
+[Video 2](https://youtu.be/CgaybSU6_40)
 
 
 ## 7) Conclusiones
