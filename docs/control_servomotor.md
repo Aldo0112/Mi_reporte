@@ -58,5 +58,3 @@ El resultado fué el esperado ya que el servomotor empezaba con un giro de 10 gr
 
 [Video del funcionamiento del servomotor](https://drive.google.com/file/d/1tfvKkWcTvmlawQ5-rqkEjaDrcSRBzs5e/view?usp=sharing)
 
-
-```
