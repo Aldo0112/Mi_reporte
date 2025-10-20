@@ -1,15 +1,10 @@
 ## 1) Resumen
 
-- **Nombre del proyecto:** _Mi Proyecto_  
-- **Equipo / Autor(es):** _Nombre(s)_  
-- **Curso / Asignatura:** _Nombre del curso_  
-- **Fecha:** _DD/MM/AAAA_  
-- **Descripción breve:** _Una o dos líneas que expliquen qué hace y por qué._
-
-!!! tip "Consejo"
-    Mantén este resumen corto (máx. 5 líneas). Lo demás va en secciones específicas.
-
----
+- **Nombre del proyecto:** Señanes_electricsd
+- **Equipo / Autor(es):** Aldo Alvarez, Erik Zepeda, Sebastian Gomez
+- **Curso / Asignatura:** Introducción a la mecatrónica
+- **Fecha:** 05/09/25  
+- **Descripción breve:** Parpadeo de un LED para observar el cambio en sus señales electricas con ayuda de un osciloscopio
 
 ## 2) Objetivos
 
