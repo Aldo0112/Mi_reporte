@@ -28,4 +28,5 @@
 
 ## 5) Resultado y evidencias
 Se obtuvo el resultado esperado logrando que el LED parpadeara en los intervalos esperados por nosotros y a traves del osciloscopio logramos observar como este parpadeo también se reflejaba en cambios en señales eléctricas
+
 [Video del funcionamiento](https://drive.google.com/file/d/14xjYpnJRGkasmjWCNnslAvvaUHVq78dH/view?usp=sharing)
