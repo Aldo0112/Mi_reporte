@@ -1,74 +1,62 @@
-# 📚 Ejemplo de Documentación del Proyecto
-
-> Plantilla genérica para documentar proyectos académicos o de ingeniería.  
-> Copia y adapta las secciones según tu necesidad.
+# Control servomotor
 
 ---
 
 ## 1) Resumen
 
-- **Nombre del proyecto:** _Mi Proyecto_  
-- **Equipo / Autor(es):** _Nombre(s)_  
-- **Curso / Asignatura:** _Nombre del curso_  
-- **Fecha:** _DD/MM/AAAA_  
-- **Descripción breve:** _Una o dos líneas que expliquen qué hace y por qué._
-
-!!! tip "Consejo"
-    Mantén este resumen corto (máx. 5 líneas). Lo demás va en secciones específicas.
+- **Nombre del proyecto:** Control servomotor  
+- **Equipo / Autor(es):** Aldo Alvarez, Alexandra Groot
+- **Curso / Asignatura:** Introducción a la mecatrónica
+- **Fecha:** 26/09/25  
+- **Descripción breve:** Controlar el movimiento de un servomotor para que vaya girando en un mayor ángulo cada vez.
 
 ---
 
 ## 2) Objetivos
 
-- **General:** _Qué se pretende lograr en términos amplios._
-- **Específicos:**
-  - _OE1…_
-  - _OE2…_
-  - _OE3…_
+- **General:** Lograr que un servomotor vaya aumentando el tamaño de su giro de 10 en 10 grados empezando en 10 y terminando en 180 para después volver a empezar el programa con la ayuda de una ESP32 y programado en Arduino
+
+---
 
 ## 3) Alcance y Exclusiones
 
-- **Incluye:** _Qué funcionalidades/entregables sí están en el proyecto._
-- **No incluye:** _Qué queda fuera para evitar malentendidos._
-
+- **Incluye:** Un servomotor el cual vaya girando cada vez más progresivamente
 ---
 
 ## 4) Requisitos
 
 **Software**
-- _SO compatible (Windows/Linux/macOS)_
-- _Python 3.x / Node 18+ / Arduino IDE / etc._
-- _Dependencias (p. ej., pip/requirements, npm packages)_
+- _Arduino_
 
 **Hardware (si aplica)**
-- _MCU / Sensores / Actuadores / Fuente de poder_
-- _Herramientas (multímetro, cautín, etc.)_
+- _Fuente de poder_
+- _Multimetro_
 
 **Conocimientos previos**
-- _Programación básica en X_
+- _Programación básica en C++_
 - _Electrónica básica_
-- _Git/GitHub_
 
 ---
 
-## 5) Instalación
+## 5) Dearrollo
 
-```bash
-# 1) Clonar
-git clone https://github.com/<usuario>/<repo>.git
-cd <repo>
+# Electrónica 
 
-# 2) (Opcional) Crear entorno virtual
-python -m venv .venv
-# macOS/Linux
-source .venv/bin/activate
-# Windows (PowerShell)
-.venv\Scripts\Activate.ps1
+Primero se conecto a una protoboard una placa ESP32 la cual estaba alimentada con la conexion a la computadora, después se conecto el servomotor tanto a un pwm en la placa para controlar su movimiento como a una fuente de poder la cual alimentaba a este.
 
-# 3) Instalar dependencias (ejemplos)
-pip install -r requirements.txt
-# o, si es Node:
-npm install
+# Programación
+
+La programación estaba hecha con el objetivo de que mientras los grados de rotación del servomotor fueran menores a 180 este iba a aumentar su giro en 10 grados cada vez hasta llegar a 180 y cuando esto sucedia el programa volvia a empezar desde el principio.
+
+[Imagen de la programación utilizada](https://drive.google.com/file/d/1puDJ0viPpVL3oPNEVQroXuWTOXrvlg3E/view?usp=sharing)
+
+---
+
+## 6) Resultado y evidencia
+
+El resultado fué el esperado ya que el servomotor empezaba con un giro de 10 grados girando coda vez mas hasta llegar a los 180 grados y volvía a repetir el ciclo.
+
+[Video del funcionamiento del servomotor](https://drive.google.com/file/d/1tfvKkWcTvmlawQ5-rqkEjaDrcSRBzs5e/view?usp=sharing)
 
 
 ```
