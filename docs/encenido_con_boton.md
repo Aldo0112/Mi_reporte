@@ -1,4 +1,4 @@
-# 📚 Encendido con botón
+# Encendido con botón
 ---
 
 ## 1) Resumen
