@@ -9,6 +9,7 @@ Mi nombre es Aldo Ibrahim Alvarez Fernández, soy estudiante de mecatrónica en 
 
 ## Datos de contacto
 Correo electrónico: aiaf.9806@gmail.com
+
 Celular: 5548864501
 
 ## Proyecto realizado anteriormente
